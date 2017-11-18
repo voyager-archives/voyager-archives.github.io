@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Voyager Archives</title>
+    <script type="text/javascript" src="file:///Users/mattricks/voyager-archives/src/Resources/engine.js"></script>
+    <script type="text/javascript" src="file:///Users/mattricks/voyager-archives/src/Resources/header.js"></script>
+    <script type="text/javascript" src="file:///Users/mattricks/voyager-archives/src/Resources/footer.js"></script>
+    <script type="text/javascript">
+    var pageData = {
+        updatedDate: "Nov 10, 2017"
+    }
+    </script>
+</head>
+
+<body>
+    <header id="header">
+    </header>
+    <main>
+        <H2>Stories</H2>
+        <ul>
+            <li>Personal Stories at the Space Center</li>
+            <li>Impact</li>
+            <li>Memories</li>
+            <li>Friends</li>
+        </ul>
+    </main>
+    <footer id="footer">
+    </footer>
+    <script>
+    templateEngine(headerTemplate,
+        pageData, 'header');
+    templateEngine(footerTemplate,
+        pageData, 'footer');
+    </script>
+</body>
+
+</html>

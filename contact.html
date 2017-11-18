@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Voyager Archives</title>
+    <script type="text/javascript" src="file:///Users/mattricks/voyager-archives/src/Resources/engine.js"></script>
+    <script type="text/javascript" src="file:///Users/mattricks/voyager-archives/src/Resources/header.js"></script>
+    <script type="text/javascript" src="file:///Users/mattricks/voyager-archives/src/Resources/footer.js"></script>
+    <script type="text/javascript">
+    var pageData = {
+        updatedDate: "Nov 11, 2017"
+    }
+
+
+
+
+
+
+class ContactForm {
+  
+  constructor(el) {
+    this.element = el || null
+    this.action = el.action
+    this.fields = Object.keys(el.elements).reduce((obj, key) => {
+      if (key === el.elements[key].id) obj[key] = el.elements[key]
+      return obj
+    }, {})
+    console.log('Contact Form:', this)
+  }
+  
+  init() {
+    this.element.addEventListener('submit', (event) => this.onSubmit(event))
+  }
+  
+  onSubmit(event) {
+    event.preventDefault()
+    this.element.classList.remove('contact-form--errors')
+    this.element.classList.remove('contact-form--sent')
+    this.element.classList.add('contact-form--loading')
+    this.sendFormData(this.getFormData())
+      .then(response => {
+        if (response.status === 200) {
+          return response.json()
+                  .then(res => this.onSent(res))
+        } else {
+          throw 'An error occured while submitting the form'
+        }
+      })
+      .catch(err => this.onError(err))
+  }
+  
+  onSent(response) {
+    for (let i = 0; i < this.element.querySelectorAll('div').length; i++) {
+      this.element.querySelectorAll('div')[i].classList.add('is-hidden')
+    }
+    
+    let successElement = document.createElement('div')
+    successElement.innerHTML = `Message sent successfully`
+    this.element.appendChild(successElement)
+
+    this.element.classList.remove('contact-form--loading')
+    this.element.classList.add('contact-form--sent')
+    console.log('Sent:', response.success)
+  }
+  
+  onError(err = '') {
+    this.element.classList.remove('contact-form--loading')
+    this.element.classList.add('contact-form--errors')
+    console.error('Error:', err)
+  }
+  
+  sendFormData(data = {}) {
+    return new Promise((resolve, reject) => {
+      console.log('Send Data:', data)
+      fetch(this.action, {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        method: 'POST',
+        body: JSON.stringify(data)
+      })
+      .then(response => resolve(response))
+      .catch(err => reject(err))
+    })
+  }
+  
+  getFormData() {
+    let formData = {},
+        values = []
+
+    Object.keys(this.fields).forEach(key => {
+      switch(this.fields[key].type) {
+        case 'checkbox':
+        case 'radio': {
+          formData[key] = this.fields[key].checked
+          break
+        }
+        case'select-one': {
+          if (!this.fields[key][this.fields[key].selectedIndex].disabled) {
+            formData[key] = this.fields[key][this.fields[key].selectedIndex].value
+          } else {
+            formData[key] = ''
+          }
+          break
+        }
+        case'select-multiple': {
+          Object.keys(this.fields[key].options).forEach(i => {
+            if (this.fields[key].options[i].selected && !this.fields[key].options[i].disabled) {
+              values.push(this.fields[key].options[i].value)
+            }
+          })
+          formData[key] = values.length > 0 ? values.join(', ') : ''
+          break
+        }
+        default: {
+          formData[key] = this.fields[key].value
+          break
+        }
+      }
+    })
+    return formData
+  }
+
+}
+
+// Create a new instance of the ContactForm class
+const form = new ContactForm(document.querySelector('.contact-form'))
+
+// Initialise our instance of the ContactForm class when document has loaded
+window.onload = (event) => form.init()
+
+
+
+
+    </script>
+</head>
+
+<body>
+    <header id="header">
+    </header>
+    <main>
+        <H2>Contact</H2>
+
+
+
+
+
+<form class="form contact-form" action="https://formspree.io/voyager.cmsec@gmail.com">
+  <div>
+    <label class="form-label" for="name">Name</label>
+    <input class="form-control" id="name" name="name" type="text" required />
+  </div>
+  <div>
+    <label class="form-label" for="email">Email</label>
+    <input class="form-control" id="email" name="email" type="email" required />
+  </div>
+  <div>
+    <label class="form-label" for="subject">Subject</label>
+    <select class="form-control" id="subject" name="subject" required>
+      <option value="" selected disabled>Choose a Subject</option>
+      <optgroup label="Option Group">
+        <option value="subject-one">Subject One</option>
+        <option value="subject-two">Subject Two</option>
+        <option value="subject-three">Subject Three</option>
+      </optgroup>
+      <option value="subject-four">Subject Four</option>
+      <option value="subject-five">Subject Five</option>
+      <option value="subject-six">Subject Six</option>
+    </select>
+  </div>
+  <div>
+    <label class="form-label" for="message">Message</label>
+    <textarea class="form-control" id="message" name="message" required></textarea>
+  </div>
+  <div>
+    <label class="form-label" for="subscribe">Subscribe?</label>
+    <input class="" id="subscribe" name="subscribe" type="checkbox" />
+  </div>
+  <div>
+    <button class="button" type="submit">Submit</button>
+    <button class="button" type="reset">Clear</button>
+  </div>
+</form>
+
+
+
+
+
+
+    </main>
+    <footer id="footer">
+    </footer>
+    <script>
+    templateEngine(headerTemplate,
+        pageData, 'header');
+    templateEngine(footerTemplate,
+        pageData, 'footer');
+    </script>
+</body>
+
+</html>

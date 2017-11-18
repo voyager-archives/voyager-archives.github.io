@@ -3,34 +3,21 @@
 
 <head>
     <title>Voyager Archives</title>
+    <script type="text/javascript" src="file:///Users/mattricks/voyager-archives/src/Resources/engine.js"></script>
+    <script type="text/javascript" src="file:///Users/mattricks/voyager-archives/src/Resources/header.js"></script>
+    <script type="text/javascript" src="file:///Users/mattricks/voyager-archives/src/Resources/footer.js"></script>
+    <script type="text/javascript">
+    var pageData = {
+        updatedDate: "Nov 10, 2017"
+    }
+    </script>
 </head>
 
 <body>
-    <header>
-        <div>
-            <H1><a href="../Index.html">Voyager Archives</a></H1>
-        </div>
-        <div>
-            <div>
-                Log In | Create Account
-            </div>
-            <div>
-                Search
-            </div>
-            <div>
-                <a href="../DIY/Index.html">DIY</a>
-                <a href="../Forums/Index.html">Forums</a>
-                <a href="../KB/Index.html">KB</a>
-                <a href="../Media/Index.html">Media</a>
-                <a href="../Wiki/Index.html">Wiki</a>
-            </div>
-        </div>
+    <header id="header">
     </header>
     <main>
         <H2>Media Content</H2>
-        <ul>
-            <li></li>
-        </ul>
         <H3>Music</H3>
         <ul>
             <li></li>
@@ -266,22 +253,20 @@
                     <li><a href="http://www.istockphoto.com/?esource=SEM_IS_GO_US_Royalty-Free_Head_EN_Broad&kw=US_Royalty-Free_Broad_%2Broyalty+%2Bfree_b&kwid=s_43700009535911518_dc&pcrid=94734832821&gclid=Cj0KEQiA6bq2BRC6ppf0_83Z1YIBEiQAgPYNvSf1e04qro-sjflnfQx99kgSDWcARNUnmAy5m8a3G6saAqzl8P8HAQ&gclsrc=aw.ds">http://www.istockphoto.com/?esource=SEM_IS_GO_US_Royalty-Free_Head_EN_Broad&kw=US_Royalty-Free_Broad_%2Broyalty+%2Bfree_b&kwid=s_43700009535911518_dc&pcrid=94734832821&gclid=Cj0KEQiA6bq2BRC6ppf0_83Z1YIBEiQAgPYNvSf1e04qro-sjflnfQx99kgSDWcARNUnmAy5m8a3G6saAqzl8P8HAQ&gclsrc=aw.ds</a></li>
                     <li><a href="http://www.trekmeshes.ch/">http://www.trekmeshes.ch/</a></li>
                     <li><a href="http://www.pdinfo.com/">http://www.pdinfo.com/</a></li>
+                    <li><a href="https://arescentral.org/about/">https://arescentral.org/about/</a></li>
+                    <li><a href="http://www.ambrosiasw.com/games/ares/addons">http://www.ambrosiasw.com/games/ares/addons</a></li>
                 </ul>
             </li>
         </ul>
     </main>
-    <footer>
-        <a href="../About/Index.html">About</a>
-        <a href="../FAQ/Index.html">FAQ</a>
-        <a href="../News/Index.html">News</a>
-        <a href="../Stories/Index.html">Stories</a>
-        <a href="">Terms</a>
-        <a href="">Privacy</a>
-        <a href="">Cookies</a>
-        <div>Portions of this content are copyright 2017 by individual voyager-archives.com contributors. Content available under a Creative Commons license.</div>
-        <div>Website created and maintained by <a href="https://github.com/Emrix">Matt Ricks</a>.</div>
-        <div>Last updated on Oct 21, 2017</div>
+    <footer id="footer">
     </footer>
+    <script>
+    templateEngine(headerTemplate,
+        pageData, 'header');
+    templateEngine(footerTemplate,
+        pageData, 'footer');
+    </script>
 </body>
 
 </html>

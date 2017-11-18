@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Voyager Archives</title>
+    <script type="text/javascript" src="file:///Users/mattricks/voyager-archives/src/Resources/engine.js"></script>
+    <script type="text/javascript" src="file:///Users/mattricks/voyager-archives/src/Resources/header.js"></script>
+    <script type="text/javascript" src="file:///Users/mattricks/voyager-archives/src/Resources/footer.js"></script>
+    <script type="text/javascript">
+    var pageData = {
+        updatedDate: "Nov 10, 2017"
+    }
+    </script>
+</head>
+
+<body>
+    <header id="header">
+    </header>
+    <main id="main">
+        <H2>Home</H2>
+        <p>Your source for Space Simulation Center knowledge, science, and history.</p>
+    </main>
+    <footer id="footer">
+    </footer>
+    <script>
+    templateEngine(headerTemplate,
+        pageData, 'header');
+    templateEngine(footerTemplate,
+        pageData, 'footer');
+    </script>
+</body>
+
+</html>
