@@ -1,6 +1,6 @@
 var headerTemplate = `
 <div>
-    <H1><a href="/Voyager-Archives/index.html">Voyager Archives</a></H1>
+    <H1><a href="/voyager-archives/index.html">Voyager Archives</a></H1>
 </div>
 <div>
     <!--
@@ -12,13 +12,13 @@ var headerTemplate = `
     </div>
     -->
     <div>
-        <a href="/Voyager-Archives/DIY/index.html">DIY</a>
-        <!-- <a href="/Voyager-Archives/Forums/index.html">Forums</a> -->
-        <!-- <a href="/Voyager-Archives/KB/index.html">KB</a> -->
-        <a href="/Voyager-Archives/Media/index.html">Media</a>
-        <a href="/Voyager-Archives/Simulations/index.html">Simulations</a>
-        <!-- <a href="/Voyager-Archives/Stories/index.html">Stories</a> -->
-        <!-- <a href="/Voyager-Archives/Wiki/index.html">Wiki</a> -->
+        <a href="/voyager-archives/DIY/index.html">DIY</a>
+        <!-- <a href="/voyager-archives/Forums/index.html">Forums</a> -->
+        <!-- <a href="/voyager-archives/KB/index.html">KB</a> -->
+        <a href="/voyager-archives/Media/index.html">Media</a>
+        <a href="/voyager-archives/Simulations/index.html">Simulations</a>
+        <!-- <a href="/voyager-archives/Stories/index.html">Stories</a> -->
+        <!-- <a href="/voyager-archives/Wiki/index.html">Wiki</a> -->
     </div>
 </div>
 `;
