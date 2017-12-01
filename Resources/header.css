@@ -54,7 +54,7 @@ table {
 
 
 
-ul {
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -62,11 +62,11 @@ ul {
     background-color: #008;
 }
 
-li {
+header li {
     float: left;
 }
 
-li a {
+header li a {
     display: block;
     color: white;
     text-align: center;
@@ -74,7 +74,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+header li a:hover:not(.active) {
     background-color: #ddd;
     color: #111;
 }
@@ -84,7 +84,7 @@ li a:hover:not(.active) {
     color: #111;
 }
 
-div a img {
+header div a img {
     margin-left: 50;
     margin-right: 50;
 }
