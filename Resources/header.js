@@ -1,24 +1,21 @@
 var headerTemplate = `
+<link rel="stylesheet" href="/voyager-archives/Resources/header.css"></link>
 <div>
-    <H1><a href="/voyager-archives/index.html">Voyager Archives</a></H1>
+    <a>
+            <img src="/voyager-archives/Resources/Logo.svg" alt="Voyager Archives" height="120" width="80">
+        </a>
+    <!-- <a style="float:right" href="">Log In</a> -->
 </div>
-<div>
-    <!--
-    <div>
-        Log In | Create Account
-    </div>
-    <div>
-        Search
-    </div>
-    -->
-    <div>
-        <a href="/voyager-archives/DIY/index.html">DIY</a>
-        <!-- <a href="/voyager-archives/Forums/index.html">Forums</a> -->
-        <!-- <a href="/voyager-archives/KB/index.html">KB</a> -->
-        <a href="/voyager-archives/Media/index.html">Media</a>
-        <a href="/voyager-archives/Simulators/index.html">Simulations</a>
-        <!-- <a href="/voyager-archives/Stories/index.html">Stories</a> -->
-        <!-- <a href="/voyager-archives/Wiki/index.html">Wiki</a> -->
-    </div>
-</div>
+<nav>
+    <ul>
+        <li><a href="/voyager-archives/DIY/index.html">DIY</a></li>
+        <!-- <li><a href="/voyager-archives/Forums/index.html">Forums</a></li> -->
+        <!-- <li><a href="/voyager-archives/KB/index.html">KB</a></li> -->
+        <li><a href="/voyager-archives/Media/index.html">Media</a></li>
+        <li><a href="/voyager-archives/Simulators/index.html">Simulations</a></li>
+        <!-- <li><a href="/voyager-archives/Stories/index.html">Stories</a></li> -->
+        <!-- <li><a href="/voyager-archives/Wiki/index.html">Wiki</a></li> -->
+        <li style="float:right"><a href="">Search</a></li>
+    </ul>
+</nav>
 `;
