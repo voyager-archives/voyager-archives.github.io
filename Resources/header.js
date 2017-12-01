@@ -1,7 +1,7 @@
 var headerTemplate = `
 <link rel="stylesheet" href="/voyager-archives/Resources/header.css"></link>
 <div>
-    <a>
+    <a href="/voyager-archives/index.html">
             <img src="/voyager-archives/Resources/Logo.svg" alt="Voyager Archives" height="120" width="80">
         </a>
     <!-- <a style="float:right" href="">Log In</a> -->
