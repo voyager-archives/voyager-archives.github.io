@@ -1,0 +1,188 @@
+/* @override 
+	http://www.spacecamputah.org/templates/cmsec_frontpage/css/template.css
+*/
+
+
+h1 h2 {line-height: 200%}
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: Stellar, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#contentContainer {
+	width: 792px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+
+/* @group Main content */
+
+/* @group Head */
+
+#head {
+	height: 188px;
+	position: absolute;
+	width: 792px;
+}
+
+#head #logo {
+	width: 200px;
+	height: 400px;
+	background: url(../images/logo.png) no-repeat;
+	margin-top: 20px;
+	margin-left: 20px;
+	position: relative;
+}
+
+#head #taglines {
+	font-size: 28px;
+	text-shadow: #000 2px 2px 6px;
+	position: absolute;
+	width: 619px;
+	top: 36px;
+	right: 0;
+	line-height: 10px;
+	letter-spacing: -2px;
+	text-align: center;
+}
+
+
+
+/* @end */
+
+/* @group Content */
+
+#menuContainer {
+	position: absolute;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 383px;
+	width: 792px;
+	background-image: url(../images/bubble.png);
+	height: 108px;
+}
+
+#content {
+	width: 790px;
+	height: 607px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#content ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+	width: 766px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 77px;
+	overflow: hidden;
+}
+
+#content ul li a {
+	text-decoration: none;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 24px;
+	line-height: 37px;
+	text-shadow: rgba(255,255,255,0.20) 0 0 6px;
+	width: auto;
+}
+
+#content ul a:hover {
+	text-shadow: rgba(255,255,255,1) 0 0 6px;
+}
+
+#content ul li {
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+#content ul li#current {
+	display: none;
+}
+
+
+
+/* @end */
+
+
+
+/* @end */
+
+/* @group Footer */
+
+#footer {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	height: 44px;
+}
+
+#footer div {
+	font-size: 13px;
+	font-style: italic;
+	font-variant: small-caps;
+	line-height: 16px;
+}
+
+#footer div a {
+	color: #0063ff;
+}
+
+#footer div a:hover {
+	color: #0098ff;
+}
+
+#footer div a:visited {
+	color: #003c9b;
+}
+
+#footer ul {
+	list-style-type: none;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 12px;
+	width: 801px;
+	padding: 0;
+	display: inline-block;
+}
+
+#footer ul li {
+	display: inline;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	height: 15px;
+	padding-right: 6px;
+	padding-left: 6px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-left-style: solid;
+}
+
+#footer ul a {
+	color: #ffffff;
+}
+
+#footer ul a:hover {
+	text-decoration: none;
+}
+
+#footer ul li#current {
+	display: none;
+}
+
+
+
+/* @end */
