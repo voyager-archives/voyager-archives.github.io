@@ -1,25 +1,86 @@
 var headerTemplate = `
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="/voyager-archives/Resources/header.css"></link>
-<div>
-    <a href="http://voyagerarchives.com">
-        <img src="./resources/images/logo.png" alt="Voyager Archives" height="120" width="80">
-    </a>
-    <h1>The Voyager Archives</h1>
-    <!-- <a style="float:right" href="">Log In</a> -->
-</div>
-<nav>
-    <ul>
-        <li>
-            <a href="/voyager-archives/DIY/index.html">DIY</a>
-        </li>
-        <!-- <li><a href="/voyager-archives/Forums/index.html">Forums</a></li> -->
-        <!-- <li><a href="/voyager-archives/KB/index.html">KB</a></li> -->
-        <li><a href="/voyager-archives/Media/index.html">Media</a></li>
-        <li><a href="/voyager-archives/Simulators/index.html">Simulations</a></li>
-        <!-- <li><a href="/voyager-archives/Stories/index.html">Stories</a></li> -->
-        <!-- <li><a href="/voyager-archives/Wiki/index.html">Wiki</a></li> -->
-        <!-- <li style="float:right"><a href="">Search</a></li> -->
-    </ul>
-</nav>
+<a href="http://voyagerarchives.com/"><img class="header-image" src="http://voyagerarchives.com/resources/images/logo.png" height="100px"></a>
+<h1 class="header-title-h1">The Voyager Archives</h1>
+<ul>
+    <li class="dropdown">
+        <a href="http://voyagerarchives.com/News/index.html" class="dropbtn">News</a>
+        <div class="header-dropdown-content">
+            <a href="http://voyagerarchives.com/News/canyon-grove.html">Canyon Grove</a>
+            <a href="http://voyagerarchives.com/News/cmsec.html">CMSEC</a>
+            <a href="http://voyagerarchives.com/News/dreamflight.html">Dreamflight</a>
+            <a href="http://voyagerarchives.com/News/farpoint.html">Farpoint</a>
+            <a href="http://voyagerarchives.com/News/infinid.html">InfiniD</a>
+            <a href="http://voyagerarchives.com/News/news-articles.html">News Articles</a>
+            <a href="http://voyagerarchives.com/News/lions-gate.html">Lion's Gate</a>
+            <a href="http://voyagerarchives.com/News/drydock-talk.html">Drydock Talk</a>
+            <a href="http://voyagerarchives.com/News/telos.html">Telos</a>
+            <a href="http://voyagerslog.blogspot.com">Voyagers Log</a>
+        </div>
+    </li>
+    <li><a href="http://voyagerarchives.com/"><span>History</span></a></li>
+    <li><a href="http://voyagerarchives.com/"><span>Stories</span></a></li>
+    <li class="dropdown">
+        <a href="http://voyagerarchives.com/Simulators/index.html" class="dropbtn">Simulator</a>
+        <div class="header-dropdown-content">
+            <a href="">Training</a>
+            <a href="">Types</a>
+            <a href="">Builds</a>
+        </div>
+    </li>
+    <li class="dropdown">
+        <a href="http://voyagerarchives.com/DIY/index.html" class="dropbtn">Universe</a>
+        <div class="header-dropdown-content">
+            <a href="">United Federation of Planets</a>
+            <a href="">Farpoint</a>
+            <a href="">InfiniD</a>
+            <a href="">Colonial Command</a>
+        </div>
+    </li>
+    <li class="dropdown">
+        <a href="http://voyagerarchives.com/DIY/index.html" class="dropbtn">DIY</a>
+        <div class="header-dropdown-content">
+            <a href="">Bridge Design / Construction</a>
+            <a href="">Controls</a>
+            <a href="">Costumes</a>
+            <a href="">Graphic Design</a>
+            <a href="">Lighting</a>
+            <a href="">Music</a>
+            <a href="">Panels</a>
+            <a href="">Programming</a>
+            <a href="">Props</a>
+            <a href="">Running the Simulation</a>
+            <a href="">Sound Effects</a>
+            <a href="">Sound System</a>
+            <a href="">Tips and Tricks</a>
+            <a href="">Video System</a>
+            <a href="">Writing Missions</a>
+        </div>
+    </li>
+    <li class="dropdown">
+        <a href="http://voyagerarchives.com/Simulators/Media/index.html" class="dropbtn">Media</a>
+        <div class="header-dropdown-content">
+            <a href="">3D Models</a>
+            <a href="">Images</a>
+            <a href="">Missions</a>
+            <a href="">Music</a>
+            <a href="">Other</a>
+            <a href="">Pictures</a>
+            <a href="">Scripts</a>
+            <a href="">SFX</a>
+            <a href="">Software</a>
+            <a href="">Videos</a>
+        </div>
+    </li>
+    <li class="dropdown">
+        <a href="http://voyagerarchives.com/Simulators/volunteers.html" class="dropbtn">Get Involved</a>
+        <div class="header-dropdown-content">
+            <a href="">Build a Ship</a>
+            <a href="">Donate</a>
+            <a href="">Open Source Programming</a>
+            <a href="">Volunteering</a>
+        </div>
+    </li>
+    </li>
+</ul>
 `;
