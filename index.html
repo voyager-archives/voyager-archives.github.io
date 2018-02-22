@@ -1,1 +1,119 @@
-site under construction
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Space Camp, Space Center, Utah, Summer Camps, Education, Field Trips, Christa McAuliffe, Space Simulation, Simulator, Starlab Planetarium, Utah, Archives, Archive, Voyager, TDSC, CMSEC, Discovery, Telos" />
+    <meta name="title" content="The Voyager Archives" />
+    <meta name="description" content="The Voyager Archives, documenting Space Simulation Center Data and History" />
+    <title>The Voyager Archives</title>
+    <link href="./resources/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="./resources/css/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="contentContainer">
+        <div id="head">
+            <div id="logo">
+                <img src="./resources/images/logo.png" alt="" />
+            </div>
+            <div id="taglines">
+                <h1>The Voyager Archives</h1>
+                <h2>Practicing the Discipline of Wonder!</h2>
+            </div>
+        </div>
+        <div id="content">
+            <div id="menuContainer">
+                <ul class="menu">
+                    <li><a href="http://voyagerarchives.com/"><span>Home</span></a></li>
+                    <li><a href="http://voyagerarchives.com/about.html"><span>About Us</span></a></li>
+                    <li><a href="http://voyagerarchives.com/news.html"><span>News</span></a></li>
+                    <li><a href="http://voyagerarchives.com/DIY/index.html"><span>DIY</span></a></li>
+                    <li><a href="http://voyagerslog.blogspot.com/" target="_blank"><span>Blog</span></a></li>
+                    <li><a href="http://voyagerarchives.com/Simulators/index.html"><span>Simulators</span></a></li>
+                    <li><a href="http://voyagerarchives.com/FAQ.html"><span>FAQ</span></a></li>
+                    <li><a href="http://voyagerarchives.com/Media/index.html"><span>Media</span></a></li>
+                    <li><a href="http://voyagerarchives.com/volunteers.html"><span>Volunteers</span></a></li>
+                </ul>
+            </div>
+            <img id="background_image" src="" alt="" />
+        </div>
+        <div id="footer">
+            <ul class="menu">
+                <li><a href="http://voyagerarchives.com/"><span>Home</span></a></li>
+                <li><a href="http://voyagerarchives.com/about.html"><span>About Us</span></a></li>
+                <li><a href="http://voyagerarchives.com/news.html"><span>News</span></a></li>
+                <li><a href="http://voyagerarchives.com/DIY/index.html"><span>DIY</span></a></li>
+                <li><a href="http://voyagerslog.blogspot.com/" target="_blank"><span>Blog</span></a></li>
+                <li><a href="http://voyagerarchives.com/Simulators/index.html"><span>Simulators</span></a></li>
+                <li><a href="http://voyagerarchives.com/FAQ.html"><span>FAQ</span></a></li>
+                <li><a href="http://voyagerarchives.com/Media/index.html"><span>Media</span></a></li>
+                <li><a href="http://voyagerarchives.com/privacy.html"><span>Privacy</span></a></li>
+                <li><a href="http://voyagerarchives.com/volunteers.html"><span>Volunteers</span></a></li>
+            </ul>
+            <div>
+                <div>
+                    <script>
+                    var x = document.getElementById('my_audio');
+
+                    function changeAudio1() {
+                        var x = document.getElementById('my_audio');
+                        var newAudio = "http://voyagerarchives.com/resources/music/autoplay_1.mp3"
+                        x.setAttribute('src', newAudio);
+                        x.play();
+                    }
+
+                    function changeAudio2() {
+                        var x = document.getElementById('my_audio');
+                        var newAudio = "http://voyagerarchives.com/resources/music/autoplay_2.mp3"
+                        x.setAttribute('src', newAudio);
+                        x.play();
+                    }
+
+                    function changeAudio3() {
+                        var x = document.getElementById('my_audio');
+                        var newAudio = "http://voyagerarchives.com/resources/music/autoplay_3.mp3"
+                        x.setAttribute('src', newAudio);
+                        x.play();
+                    }
+
+                    function changeAudio4() {
+                        var x = document.getElementById('my_audio');
+                        var newAudio = "http://voyagerarchives.com/resources/music/autoplay_4.mp3"
+                        x.setAttribute('src', newAudio);
+                        x.play();
+                    }
+                    </script>
+                    <p>Hear the sounds of the old website:</p>
+                    <audio id="my_audio" loop="" src="http://voyagerarchives.com/resources/music/autoplay_1.mp3"></audio>
+                    <button onclick="changeAudio1()" type="button">Sapphire Isle</button>
+                    <button onclick="changeAudio3()" type="button">Meditation Impromptu 01</button>
+                    <button onclick="changeAudio2()" type="button">Bathed in the Light</button>
+                    <button onclick="changeAudio4()" type="button">Meditation Impromptu 03</button>
+                    <p>Music by Kevin MacLeod</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    var audiosource = document.getElementById('my_audio');
+    var newAudio = "./resources/music/autoplay_" + Math.round(Math.random() * 3 + 1) + ".mp3";
+    audiosource.setAttribute('src', newAudio);
+
+    var imagesource = document.getElementById('background_image');
+    var newimage = "./resources/frontpage/front_" + Math.round(Math.random() * 6 + 1) + ".jpg";
+    imagesource.setAttribute('src', newimage);
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113449645-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-113449645-1');
+    </script>
+</body>
+<!-- adding random comment -->
+
+</html>
