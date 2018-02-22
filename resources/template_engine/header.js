@@ -1,5 +1,5 @@
 var headerTemplate = `
-<link rel="stylesheet" href="/voyager-archives/Resources/header.css"></link>
+<link rel="stylesheet" href="/Resources/header.css"></link>
 <a href="http://voyagerarchives.com/"><img class="header-image" src="http://voyagerarchives.com/resources/images/logo.png" height="100px"></a>
 <h1 class="header-title-h1">The Voyager Archives</h1>
 <ul>
