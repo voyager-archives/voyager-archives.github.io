@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Voyager Archives</title>
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/engine.js"></script>
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/header.js"></script>
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/footer.js"></script>
+    <script type="text/javascript">
+    var pageData = {
+        updatedDate: "Feb 21, 2018"
+    }
+    </script>
+</head>
+
+<body>
+    <header id="header">
+    </header>
+    <main>
+        <h1>Builds</h1>
+    </main>
+    <footer id="footer">
+    </footer>
+    <script>
+    templateEngine(headerTemplate,
+        pageData, 'header');
+    templateEngine(footerTemplate,
+        pageData, 'footer');
+    </script>
+</body>
+
+</html>

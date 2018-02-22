@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Voyager Archives</title>
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/engine.js"></script>
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/header.js"></script>
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/footer.js"></script>
+    <script type="text/javascript">
+    var pageData = {
+        updatedDate: "Nov 10, 2017"
+    }
+    </script>
+</head>
+
+<body>
+    <header id="header">
+    </header>
+    <main>
+        <H2>DIY Instructibles</H2>
+        <a href="/voyager-archives/DIY/Instructible Writing Guide.html">Make your own instructible</a>
+        <p>Ever wanted to make your own space simulator? Or do you have a simulator and you just want to make it better? Look into <a href="">lighting</a>, <a href="">sound</a>, or <a href="">programming</a> instructibles.</p>
+        <h3>Featured Articles</h3>
+        <a href="/voyager-archives/DIY/Instructible Writing Guide.html">Instructible Writing Guide</a>
+        <h3>Categories</h3>
+        <ul>
+            <li><a href="">Acting</a></li>
+            <li><a href="">Bridge Design / Construction</a></li>
+            <li><a href="">Controls Design</a> (for programming controls, see <a href="https://github.com/Thorium-Sim/thorium">Thorium</a>)</li>
+            <li><a href="">Costume Creation</a></li>
+            <li><a href="">Dial and Switch Panels</a></li>
+            <li><a href="">Graphic Design</a></li>
+            <li><a href="">Lighting System</a></li>
+            <li><a href="">Music</a></li>
+            <li><a href="">Programming</a></li>
+            <li><a href="">Props</a></li>
+            <li><a href="">Sound Effects</a></li>
+            <li><a href="">Sound System</a></li>
+            <li><a href="">Tips and Tricks</a></li>
+            <li><a href="">Training</a></li>
+            <li><a href="">Video System</a></li>
+            <li><a href="">Writing Missions</a></li>
+        </ul>
+    </main>
+    <footer id="footer">
+    </footer>
+    <script>
+    templateEngine(headerTemplate,
+        pageData, 'header');
+    templateEngine(footerTemplate,
+        pageData, 'footer');
+    </script>
+</body>
+
+</html>
