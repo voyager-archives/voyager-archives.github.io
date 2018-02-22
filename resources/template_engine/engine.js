@@ -1,6 +1,6 @@
 function templateEngine(html, options, elementName) {
-   // html = template;
-  //  options = meh;
+    // html = template;
+    //  options = meh;
     var re = /<%(.+?)%>/g,
         reExp = /(^( )?(var|if|for|else|switch|case|break|{|}|;))(.*)?/g,
         code = 'with(obj) { var r=[];\n',
@@ -24,5 +24,5 @@ function templateEngine(html, options, elementName) {
         console.error("'" + err.message + "'", " in \n\nCode:\n", code, "\n");
     }
     document.getElementById(elementName).innerHTML = result;
-//    return result;
+    //    return result;
 }
