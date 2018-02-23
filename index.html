@@ -8,6 +8,14 @@
     <title>The Voyager Archives</title>
     <link href="./resources/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="./resources/css/index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/engine.js"></script>
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/header.js"></script>
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/footer.js"></script>
+    <script type="text/javascript">
+    var pageData = {
+        updatedDate: "Nov 21, 2017"
+    }
+    </script>
 </head>
 
 <body>
@@ -94,6 +102,8 @@
             </div>
         </div>
     </div>
+    <footer id="footer">
+    </footer>
     <script type="text/javascript">
     var audiosource = document.getElementById('my_audio');
     var newAudio = "./resources/music/autoplay_" + Math.round(Math.random() * 3 + 1) + ".mp3";
@@ -113,7 +123,10 @@
 
     gtag('config', 'UA-113449645-1');
     </script>
+    <script>
+    templateEngine(footerTemplate,
+        pageData, 'footer');
+    </script>
 </body>
-<!-- adding random comment -->
 
 </html>
