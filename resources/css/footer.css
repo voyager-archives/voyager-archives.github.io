@@ -182,3 +182,30 @@ div a img {
     margin-left: 50;
     margin-right: 50;
 }
+
+
+
+
+
+#playlist,
+footer audio {
+    background: #666;
+    width: 400px;
+    padding: 20px;
+}
+
+.active footer a {
+    color: #5DB0E6;
+    text-decoration: none;
+}
+
+footer li a {
+    color: #eeeedd;
+    background: #333;
+    padding: 5px;
+    display: block;
+}
+
+footer li a:hover {
+    text-decoration: none;
+}
