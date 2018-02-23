@@ -7,31 +7,9 @@ var footerTemplate = `
 <!-- <a href="/cookies.html">Cookies</a> -->
 <div>Portions of this content are copyright 2017 by individual Voyager Archives contributors. Content available under a Creative Commons license.</div>
 <div>Website created and maintained by <a href="https://github.com/Emrix">Matt Ricks</a>.</div>
-<div>Last updated on <%updatedDate%></div>
-<style>
-#playlist,
-audio {
-    background: #666;
-    width: 400px;
-    padding: 20px;
-}
-
-.active a {
-    color: #5DB0E6;
-    text-decoration: none;
-}
-
-li a {
-    color: #eeeedd;
-    background: #333;
-    padding: 5px;
-    display: block;
-}
-
-li a:hover {
-    text-decoration: none;
-}
-</style>
+<div>Last updated on
+    <%updatedDate%>
+</div>
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
 window.Formaweb = window.Formaweb || {};
