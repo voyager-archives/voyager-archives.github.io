@@ -142,13 +142,13 @@ table {
 
 /*end reset*/
 
-:focus {
+footer :focus {
     outline: default;
 }
 
 
 
-ul {
+footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -156,11 +156,11 @@ ul {
     background-color: #008;
 }
 
-li {
+footer li {
     float: left;
 }
 
-li a {
+footer li a {
     display: block;
     color: white;
     text-align: center;
@@ -168,44 +168,17 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+footer li a:hover:not(.active) {
     background-color: #ddd;
     color: #111;
 }
 
-.active {
+footer .active {
     background-color: #ddd;
     color: #111;
 }
 
-div a img {
+footer div a img {
     margin-left: 50;
     margin-right: 50;
-}
-
-
-
-
-
-#playlist,
-footer audio {
-    background: #666;
-    width: 400px;
-    padding: 20px;
-}
-
-.active footer a {
-    color: #5DB0E6;
-    text-decoration: none;
-}
-
-footer li a {
-    color: #eeeedd;
-    background: #333;
-    padding: 5px;
-    display: block;
-}
-
-footer li a:hover {
-    text-decoration: none;
 }
