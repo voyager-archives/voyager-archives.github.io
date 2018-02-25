@@ -6,13 +6,13 @@
     <meta name="title" content="The Voyager Archives" />
     <meta name="description" content="The Voyager Archives, documenting Space Simulation Center Data and History" />
     <title>The Voyager Archives</title>
-    <link href="./resources/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href="./resources/css/index.css" rel="stylesheet" type="text/css" />
-    <link href="./resources/css/main_page_player.css" rel="stylesheet" type="text/css" />
+    <link href="http://voyagerarchives.com/resources/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="http://voyagerarchives.com/resources/css/index.css" rel="stylesheet" type="text/css" />
+    <link href="http://voyagerarchives.com/resources/css/main_page_player.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/engine.js"></script>
-    <script type="text/javascript" src="./resources/template_engine/footer.js"></script>
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/footer.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="./resources/js/main_page_player.js"></script>
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/js/main_page_player.js"></script>
     <script type="text/javascript">
     var pageData = {
         updatedDate: "Nov 21, 2017"
@@ -21,13 +21,11 @@
 </head>
 
 <body>
-    <header id="header">
-    </header>
     <main>
         <div id="contentContainer">
             <div id="head">
                 <div id="logo">
-                    <img src="./resources/images/logo.png" alt="" />
+                    <img src="http://voyagerarchives.com/resources/images/logo.png" alt=""/>
                 </div>
                 <div id="taglines">
                     <h1>The Voyager Archives</h1>
@@ -37,51 +35,43 @@
             <div id="content">
                 <div id="menuContainer">
                     <ul class="menu">
-                        <li><a href="http://voyagerarchives.com/"><span>Home</span></a></li>
-                        <li><a href="http://voyagerarchives.com/about.html"><span>About Us</span></a></li>
+                        <li><a href="http://voyagerarchives.com/about.html"><span>About</span></a></li>
                         <li><a href="http://voyagerarchives.com/news.html"><span>News</span></a></li>
-                        <li><a href="http://voyagerarchives.com/DIY/index.html"><span>DIY</span></a></li>
-                        <li><a href="http://voyagerslog.blogspot.com/" target="_blank"><span>Blog</span></a></li>
+                        <li><a href="http://voyagerarchives.com/history.html"><span>History</span></a></li>
+                        <li><a href="http://voyagerarchives.com/stories.html"><span>Stories</span></a></li>
                         <li><a href="http://voyagerarchives.com/Simulators/index.html"><span>Simulators</span></a></li>
-                        <li><a href="http://voyagerarchives.com/FAQ.html"><span>FAQ</span></a></li>
+                        <li><a href="http://voyagerarchives.com/Universe/index.html"><span>Universe</span></a></li>
+                        <li><a href="http://voyagerarchives.com/DIY/index.html"><span>DIY</span></a></li>
                         <li><a href="http://voyagerarchives.com/Media/index.html"><span>Media</span></a></li>
-                        <li><a href="http://voyagerarchives.com/volunteers.html"><span>Volunteers</span></a></li>
+                        <li><a href="http://voyagerarchives.com/Get-Involved/index.html"><span>Get Involved</span></a></li>
                     </ul>
                 </div>
                 <img id="background_image" src="" alt="" />
             </div>
         </div>
-
+        <div id="music">
+            <p>
+                <a href="#" class="audio play" data-music-id="Sapphire Isle">Sapphire Isle</a>
+                <a href="#" class="audio play" data-music-id="Meditation Impromptu 01">Meditation Impromptu 01</a>
+                <a href="#" class="audio play" data-music-id="Meditation Impromptu 03">Meditation Impromptu 03</a>
+                <a href="#" class="audio play" data-music-id="Bathed in the Light">Bathed in the Light</a>
+            </p>
+            <p class="audio name">loading...</p>
+            <p>Music by Kevin MacLeod</p>
+        </div>
         <div id="player">
-            <a href="#" class="audio prev">Prev</a>
-            <audio controls>
+            <audio>
                 Your browser does not support HTML 5 Player.
             </audio>
-            <a href="#" class="audio next">Next</a>
-            <br>
-            <span class="audio name">loading...</span>
-        </div>
-        <div id="music">
-            <h4>Music</h4>
-            <ul>
-                <li><a href="#" class="audio play" data-music-id="Sapphire Isle">Sapphire Isle</a></li>
-                <li><a href="#" class="audio play" data-music-id="Meditation Impromptu 01">Meditation Impromptu 01</a></li>
-                <li><a href="#" class="audio play" data-music-id="Meditation Impromptu 03">Meditation Impromptu 03</a></li>
-                <li><a href="#" class="audio play" data-music-id="Bathed in the Light">Bathed in the Light</a></li>
-            </ul>
         </div>
     </main>
-    <footer id="footer">
-    </footer>
 </body>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113449645-1"></script>
 <script type="text/javascript">
 //Background Image
 var imagesource = document.getElementById('background_image');
-var newimage = "./resources/frontpage/front_" + Math.round(Math.random() * 6 + 1) + ".jpg";
+var newimage = "http://voyagerarchives.com/resources/frontpage/front_" + Math.round(Math.random() * 6 + 1) + ".jpg";
 imagesource.setAttribute('src', newimage);
-//Footer
-templateEngine(footerTemplate, pageData, 'footer');
 //Global site tag (gtag.js) - Google Analytics
 window.dataLayer = window.dataLayer || [];
 

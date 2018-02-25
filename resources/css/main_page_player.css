@@ -1,36 +1,39 @@
 #player {
-    margin-left: auto;
-    margin-right: auto;
     font-family: Stellar, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
     font-size: 13px;
     font-style: italic;
     font-variant: small-caps;
     line-height: 16px;
-}
-
-#music {
-    width:30vw;
-    font-family: Stellar, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-    font-size: 13px;
-    font-style: italic;
-    font-variant: small-caps;
-    line-height: 16px;
-}
-
-.audio.name {
-    width: 100px;
-    margin-right: 50%;
-    margin-left: 50%;
+    margin: 0 auto;
+    width: 800px;
+    border-width: 0;
 }
 
 #player audio {
-    background: #666;
-    width: 400px;
-    padding: 20px;
+    width: 800px;
+    padding: 0px;
 }
 
-#player a {
-    color: #fff;
+#music {
+    font-family: Stellar, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    font-variant: small-caps;
+    line-height: 16px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+#music p {
+    text-align: center;
+}
+#music p a {
+    color: #eeeedd;
+    background: #333;
+    padding: 5px;
+}
+#music p a:hover {
+    text-decoration: none;
 }
 
 #music .active a {
@@ -38,13 +41,7 @@
     text-decoration: none;
 }
 
-#music li a {
-    color: #eeeedd;
-    background: #333;
-    padding: 5px;
-    display: block;
-}
-
-#music li a:hover {
-    text-decoration: none;
+.audio.name {
+    margin: 0 auto;
+    text-align: center;
 }
