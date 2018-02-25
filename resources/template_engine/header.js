@@ -10,7 +10,7 @@ var headerTemplate = `
             <a href="http://voyagerarchives.com/News/cmsec.html">CMSEC</a>
             <a href="http://voyagerarchives.com/News/dreamflight.html">Dreamflight</a>
             <a href="http://voyagerarchives.com/News/farpoint.html">Farpoint</a>
-            <a href="http://voyagerarchives.com/News/infinid.html">InfiniD</a>
+            <a href="http://voyagerarchives.com/News/infinid-learning.html">InfiniD</a>
             <a href="http://voyagerarchives.com/News/news-articles.html">News Articles</a>
             <a href="http://voyagerarchives.com/News/lions-gate.html">Lion's Gate</a>
             <a href="http://voyagerarchives.com/News/drydock-talk.html">Drydock Talk</a>
@@ -33,7 +33,7 @@ var headerTemplate = `
         <div class="header-dropdown-content">
             <a href="http://voyagerarchives.com/Universe/united-federation-of-planets.html">United Federation of Planets</a>
             <a href="http://voyagerarchives.com/Universe/farpoint.html">Farpoint</a>
-            <a href="http://voyagerarchives.com/Universe/infinid.html">InfiniD</a>
+            <a href="http://voyagerarchives.com/Universe/infinid-learning.html">InfiniD</a>
             <a href="http://voyagerarchives.com/Universe/colonial-command.html">Colonial Command</a>
         </div>
     </li>
