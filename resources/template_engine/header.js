@@ -10,7 +10,7 @@ var headerTemplate = `
             <a href="http://voyagerarchives.com/News/cmsec.html">CMSEC</a>
             <a href="http://voyagerarchives.com/News/dreamflight.html">Dreamflight</a>
             <a href="http://voyagerarchives.com/News/farpoint.html">Farpoint</a>
-            <a href="http://voyagerarchives.com/News/infinid-learning.html">InfiniD</a>
+            <a href="http://voyagerarchives.com/News/infinid-learning.html">InfiniD Learning</a>
             <a href="http://voyagerarchives.com/News/news-articles.html">News Articles</a>
             <a href="http://voyagerarchives.com/News/lions-gate.html">Lion's Gate</a>
             <a href="http://voyagerarchives.com/News/drydock-talk.html">Drydock Talk</a>
@@ -80,7 +80,6 @@ var headerTemplate = `
             <a href="http://voyagerarchives.com/Get-Involved/open-source-programming.html">Open Source Programming</a>
             <a href="http://voyagerarchives.com/Get-Involved/volunteering.html">Volunteering</a>
         </div>
-    </li>
     </li>
 </ul>
 `;

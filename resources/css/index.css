@@ -37,7 +37,7 @@ body {
 #head #logo {
     width: 200px;
     height: 400px;
-    background: url(../images/logo.png) no-repeat;
+    background: url(http://voyagerarchives.com/resources/images/logo.png) no-repeat;
     margin-top: 20px;
     margin-left: 20px;
     position: relative;
@@ -69,7 +69,7 @@ body {
     margin-left: auto;
     margin-top: 383px;
     width: 792px;
-    background-image: url(../images/bubble.png);
+    background-image: url(http://voyagerarchives.com/resources/images/bubble.png);
     height: 108px;
 }
 

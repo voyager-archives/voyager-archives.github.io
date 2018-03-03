@@ -142,43 +142,19 @@ table {
 
 /*end reset*/
 
-:focus {
-    outline: default;
+main {
+    background-color: #fff;
+    color: #333;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
 }
 
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #008;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
+main h2 {
+    font-size: 30px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #ddd;
-    color: #111;
-}
-
-.active {
-    background-color: #ddd;
-    color: #111;
-}
-
-div a img {
-    margin-left: 50;
-    margin-right: 50;
+main h3 {
+    font-size: 20px;
 }
