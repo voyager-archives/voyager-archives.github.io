@@ -31,10 +31,11 @@ var headerTemplate = `
     <li class="dropdown">
         <a href="http://voyagerarchives.com/Universe/index.html" class="dropbtn">Universe</a>
         <div class="header-dropdown-content">
-            <a href="http://voyagerarchives.com/Universe/united-federation-of-planets.html">United Federation of Planets</a>
-            <a href="http://voyagerarchives.com/Universe/farpoint.html">Farpoint</a>
+            <a href="http://memory-alpha.wikia.com/">United Federation of Planets</a>
+            <a href="https://docs.google.com/document/d/1-ESmVic7wp4w1roIPbcuxIzFR-Yy7F25WXbkt9D6lLM/edit?usp=sharing">Farpoint</a>
             <a href="http://voyagerarchives.com/Universe/infinid-learning.html">InfiniD</a>
-            <a href="http://voyagerarchives.com/Universe/colonial-command.html">Colonial Command</a>
+            <a href="http://colonialcommand.com/lore/">Colonial Command</a>
+            <a href="http://dreamflightadventures.com/simulators/">Dreamflight</a>
         </div>
     </li>
     <li class="dropdown">
