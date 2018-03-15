@@ -35,7 +35,7 @@ var headerTemplate = `
             <a href="https://docs.google.com/document/d/1-ESmVic7wp4w1roIPbcuxIzFR-Yy7F25WXbkt9D6lLM/edit?usp=sharing">Farpoint</a>
             <a href="http://voyagerarchives.com/Universe/infinid-learning.html">InfiniD</a>
             <a href="http://colonialcommand.com/lore/">Colonial Command</a>
-            <a href="http://dreamflightadventures.com/simulators/">Dreamflight</a>
+            <a href="https://s3-us-west-2.amazonaws.com/spacecenter/Documents/dreamflight/General+Introduction.pdf">Dreamflight</a>
         </div>
     </li>
     <li class="dropdown">
