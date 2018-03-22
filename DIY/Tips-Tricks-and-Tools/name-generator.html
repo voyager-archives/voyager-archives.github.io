@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Voyager Archives</title>
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/engine.js"></script>
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/header.js"></script>
+    <script type="text/javascript" src="http://voyagerarchives.com/resources/template_engine/footer.js"></script>
+    <script type="text/javascript">
+    var pageData = {
+        updatedDate: "Mar 22, 2018"
+    }
+    </script>
+    <script type="text/javascript" src="./first-name.js"></script>
+    <script type="text/javascript" src="./last-name.js"></script>
+    <script type="text/javascript" src="name_generator.js"></script>
+    <link rel="stylesheet" href="http://voyagerarchives.com/resources/css/main.css"></link>
+</head>
+
+<body>
+    <header id="header">
+    </header>
+    <div style="height: 114px"></div>
+    <main>
+        <h2>Name Generator</h2>
+        <div style="text-align:center;">
+            <button onclick="generateNames()" style="">Generate Random Names</button>
+        </div>
+        <br>
+        <ol id="nameList" style="text-align: center;">
+        </ol>
+    </main>
+    <footer id="footer">
+    </footer>
+    <script>
+    generateNames();
+    templateEngine(headerTemplate,
+        pageData, 'header');
+    templateEngine(footerTemplate,
+        pageData, 'footer');
+    </script>
+</body>
+
+</html>

@@ -53,7 +53,7 @@ var headerTemplate = `
             <a href="http://voyagerarchives.com/DIY/Running-the-Simulation/index.html">Running the Simulation</a>
             <a href="http://voyagerarchives.com/DIY/Sound-Effects/index.html">Sound Effects</a>
             <a href="http://voyagerarchives.com/DIY/Sound-System/index.html">Sound System</a>
-            <a href="http://voyagerarchives.com/DIY/Tips-and-Tricks/index.html">Tips and Tricks</a>
+            <a href="http://voyagerarchives.com/DIY/Tips-Tricks-and-Tools/index.html">Tips, Tricks and Tools</a>
             <a href="http://voyagerarchives.com/DIY/Video-System/index.html">Video System</a>
             <a href="http://voyagerarchives.com/DIY/Writing-Missions/index.html">Writing Missions</a>
         </div>
