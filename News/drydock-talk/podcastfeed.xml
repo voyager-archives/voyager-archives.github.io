@@ -24,19 +24,35 @@
     </itunes:category>
 
     <item>
-      <title>Drydock Talk Episode 01 - Bossman Himself</title>
-      <link>http://voyagerarchives.com/News/drydock-talk.html</link>
+      <title>Drydock Talk Episode 00 - Who are these guys?</title>
+      <link>http://voyagerarchives.com/News/drydock-talk/index.html</link>
       <guid>https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+00+-+Who+are+these+guys.wav</guid>
-      <description> Welcome to the show it is November 30th and this is our 1st show! Today will be an interview with Victor Williamson, creator and founder of the Christa McAullife Space Education Center. </description>
-      <enclosure url="https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+00+-+Who+are+these+guys.wav" length="456523480" type="audio/wav" />
+      <description> Welcome to our 1st release! Today are introducing ourselves, and talking about the Christa McAullife Space Education Center. </description>
+      <enclosure url="https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+00+-+Who+are+these+guys.wav" length="353000800" type="audio/wav" />
       <category>Podcasts</category>
       <pubDate>Thu, 30 Nov 2017 12:00:00 -0700</pubDate>
       <itunes:author>TSG @ Drydock Talk</itunes:author>
       <itunes:explicit>No</itunes:explicit>
-      <itunes:subtitle> Welcome to the show it is November 30th and this is our 1st show! Today will be an interview with Victor Williamson, creator and founder of the Christa McAullife Space Education Center. </itunes:subtitle>
-      <itunes:summary> Welcome to the show it is November 30th and this is our 1st show! Today will be an interview with Victor Williamson, creator and founder of the Christa McAullife Space Education Center. </itunes:summary>
+      <itunes:subtitle> Welcome to our 1st release! Today are introducing ourselves, and talking about the Christa McAullife Space Education Center. </itunes:subtitle>
+      <itunes:summary> Welcome to our 1st release! Today are introducing ourselves, and talking about the Christa McAullife Space Education Center. </itunes:summary>
+      <itunes:duration>00:33:21</itunes:duration>
+      <itunes:keywords>Matt, Nathan, Drydock Talk, podcast, podcasting, podcaster, Interviews, Space Center, CMSEC, TDSC, Telos, infiniD, infinity, Discovery, Christa McAullife</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Drydock Talk Episode 01 - Bossman Himself</title>
+      <link>http://voyagerarchives.com/News/drydock-talk/index.html</link>
+      <guid>https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+1+-+Bossman+Himself.wav</guid>
+      <description> Welcome to our first interview! Today will be an interview with Victor Williamson, creator and founder of the Christa McAullife Space Education Center. </description>
+      <enclosure url="https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+1+-+Bossman+Himself.wav" length="456523480" type="audio/wav" />
+      <category>Podcasts</category>
+      <pubDate>Thu, 30 Nov 2017 12:00:00 -0700</pubDate>
+      <itunes:author>TSG @ Drydock Talk</itunes:author>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:subtitle> Welcome to our first interview! Today will be an interview with Victor Williamson, creator and founder of the Christa McAullife Space Education Center. </itunes:subtitle>
+      <itunes:summary> Welcome to our first interview! Today will be an interview with Victor Williamson, creator and founder of the Christa McAullife Space Education Center. </itunes:summary>
       <itunes:duration>00:43:08</itunes:duration>
-      <itunes:keywords>Drydock Talk, podcast, podcasting, podcaster, Interviews, Victor Williamson, Space Center, CMSEC, TDSC, Telos, infiniD, infinity, Discovery, Christa McAullife</itunes:keywords>
+      <itunes:keywords>Victor Williamson, Drydock Talk, podcast, podcasting, podcaster, Interviews, Space Center, CMSEC, TDSC, Telos, infiniD, infinity, Discovery, Christa McAullife</itunes:keywords>
     </item>
   </channel>
 </rss>
