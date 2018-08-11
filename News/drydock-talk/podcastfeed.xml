@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Drydock Talk with the TSG</title>
+    <description>Unnecessary commentary about the Space Center by two guys who questionably know what they're talking about.</description>
+    <link>http://voyagerarchives.com</link>
+    <language>en-us</language>
+    <copyright>Copyright 2017</copyright>
+    <lastBuildDate>Sat, 11 Aug 2018 07:39:00 -0700</lastBuildDate>
+    <pubDate>Sat, 11 Aug 2018 07:39:00 -0700</pubDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <webMaster>drydocktalk@gmail.com</webMaster>
+    <itunes:author>TSG @ Drydock Talk</itunes:author>
+    <itunes:subtitle>Unnecessary commentary about the Space Center by two guys who questionably know what they're talking about.</itunes:subtitle>
+    <itunes:summary>Unnecessary commentary about the Space Center by two space guys who questionably know what they're talking about.  We love talking about everything Space Center, including stories from members of the Space Center, Technology and Theory.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>TSG</itunes:name>
+      <itunes:email>drydocktalk@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>No</itunes:explicit>
+    <itunes:image href="http://voyagerarchives.com/resources/images/logo.png"/>
+    <itunes:category text="Technology">
+      <itunes:category text="Podcasting" />
+    </itunes:category>
+
+    <item>
+      <title>Drydock Talk Episode 01 - Bossman Himself</title>
+      <link>http://voyagerarchives.com/News/drydock-talk.html</link>
+      <guid>https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+00+-+Who+are+these+guys.wav</guid>
+      <description> Welcome to the show it is November 30th and this is our 1st show! Today will be an interview with Victor Williamson, creator and founder of the Christa McAullife Space Education Center. </description>
+      <enclosure url="https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+00+-+Who+are+these+guys.wav" length="456523480" type="audio/wav" />
+      <category>Podcasts</category>
+      <pubDate>Thu, 30 Nov 2017 12:00:00 -0700</pubDate>
+      <itunes:author>TSG @ Drydock Talk</itunes:author>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:subtitle> Welcome to the show it is November 30th and this is our 1st show! Today will be an interview with Victor Williamson, creator and founder of the Christa McAullife Space Education Center. </itunes:subtitle>
+      <itunes:summary> Welcome to the show it is November 30th and this is our 1st show! Today will be an interview with Victor Williamson, creator and founder of the Christa McAullife Space Education Center. </itunes:summary>
+      <itunes:duration>00:43:08</itunes:duration>
+      <itunes:keywords>Drydock Talk, podcast, podcasting, podcaster, Interviews, Victor Williamson, Space Center, CMSEC, TDSC, Telos, infiniD, infinity, Discovery, Christa McAullife</itunes:keywords>
+    </item>
+  </channel>
+</rss>
