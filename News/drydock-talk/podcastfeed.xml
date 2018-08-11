@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drydock Talk with the TSG</title>
     <description>Unnecessary commentary about the Space Center by two guys who questionably know what they're talking about.</description>
@@ -9,7 +9,8 @@
     <lastBuildDate>Sat, 11 Aug 2018 07:39:00 -0700</lastBuildDate>
     <pubDate>Sat, 11 Aug 2018 07:39:00 -0700</pubDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-    <webMaster>drydocktalk@gmail.com</webMaster>
+    <webMaster>drydocktalk@gmail.com (The Two Space Guys)</webMaster>
+    <atom:link href="http://voyagerarchives.com/News/drydock-talk/podcastfeed.xml" rel="self" type="application/rss+xml" />
     <itunes:author>TSG @ Drydock Talk</itunes:author>
     <itunes:subtitle>Unnecessary commentary about the Space Center by two guys who questionably know what they're talking about.</itunes:subtitle>
     <itunes:summary>Unnecessary commentary about the Space Center by two space guys who questionably know what they're talking about.  We love talking about everything Space Center, including stories from members of the Space Center, Technology and Theory.</itunes:summary>
