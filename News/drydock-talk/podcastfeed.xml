@@ -19,7 +19,7 @@
       <itunes:email>drydocktalk@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:explicit>No</itunes:explicit>
-    <itunes:image href="http://voyagerarchives.com/resources/images/logo.png"/>
+    <itunes:image href="https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+Logo.png"/>
     <itunes:category text="Technology">
       <itunes:category text="Podcasting" />
     </itunes:category>
