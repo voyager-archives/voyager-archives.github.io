@@ -55,5 +55,37 @@
       <itunes:duration>00:43:08</itunes:duration>
       <itunes:keywords>Victor Williamson, Drydock Talk, podcast, podcasting, podcaster, Interviews, Space Center, CMSEC, TDSC, Telos, infiniD, infinity, Discovery, Christa McAullife</itunes:keywords>
     </item>
+
+    <item>
+      <title>Drydock Talk 02 - This is War(ner)</title>
+      <link>http://voyagerarchives.com/News/drydock-talk/index.html</link>
+      <guid>https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+02+-+This+is+War(ner).wav</guid>
+      <description> Today we will be interviewing Megan Warner, flight director, set director, and center director extraordinaire! </description>
+      <enclosure url="https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+02+-+This+is+War(ner).wav" length="378786334" type="audio/wav" />
+      <category>Podcasts</category>
+      <pubDate>Thu, 14 Dec 2017 12:00:00 -0700</pubDate>
+      <itunes:author>TSG @ Drydock Talk</itunes:author>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:subtitle> Today we will be interviewing Megan Warner, flight director, set director, and center director extraordinaire! </itunes:subtitle>
+      <itunes:summary> Today we will be interviewing Megan Warner, flight director, set director, and center director extraordinaire! </itunes:summary>
+      <itunes:duration>00:35:47</itunes:duration>
+      <itunes:keywords>Megan Warner, Drydock Talk, podcast, podcasting, podcaster, Interviews, Space Center, CMSEC, TDSC, Telos, infiniD, infinity, Discovery, Christa McAullife</itunes:keywords>
+    </item>
+
+    <item>
+      <title>Drydock Talk 03 - Like Driving a Stick</title>
+      <link>http://voyagerarchives.com/News/drydock-talk/index.html</link>
+      <guid>https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+03+-+Like+Driving+a+Stick.wav</guid>
+      <description> Some thoughts and unique ideas from the Two Space Guys. </description>
+      <enclosure url="https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+03+-+Like+Driving+a+Stick.wav" length="456523480" type="audio/wav" />
+      <category>Podcasts</category>
+      <pubDate>Fri, 12 Jan 2018 12:00:00 -0700</pubDate>
+      <itunes:author>TSG @ Drydock Talk</itunes:author>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:subtitle> Some thoughts and unique ideas from the Two Space Guys. </itunes:subtitle>
+      <itunes:summary> Some thoughts and unique ideas from the Two Space Guys. </itunes:summary>
+      <itunes:duration>00:43:08</itunes:duration>
+      <itunes:keywords>Drydock Talk, podcast, podcasting, podcaster, Interviews, Space Center, CMSEC, TDSC, Telos, infiniD, infinity, Discovery, Christa McAullife</itunes:keywords>
+    </item>
   </channel>
 </rss>
