@@ -87,5 +87,21 @@
       <itunes:duration>00:43:08</itunes:duration>
       <itunes:keywords>Drydock Talk, podcast, podcasting, podcaster, Interviews, Space Center, CMSEC, TDSC, Telos, infiniD, infinity, Discovery, Christa McAullife</itunes:keywords>
     </item>
+
+    <item>
+      <title>Drydock Talk 04 - Experiential Framing</title>
+      <link>http://voyagerarchives.com/News/drydock-talk/index.html</link>
+      <guid>https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Episode+04+-+Experiential+Framing.m4a</guid>
+      <description> Today, we will be talking a little bit about how to frame an experience. </description>
+      <enclosure url="https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Episode+04+-+Experiential+Framing.m4a" length="90821402" type="audio/m4a" />
+      <category>Podcasts</category>
+      <pubDate>Thu, 7 Feb 2019 12:00:00 -0700</pubDate>
+      <itunes:author>TSG @ Drydock Talk</itunes:author>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:subtitle> Today, we will be talking a little bit about how to frame an experience. </itunes:subtitle>
+      <itunes:summary> Today, we will be talking a little bit about how to frame an experience. </itunes:summary>
+      <itunes:duration>00:43:08</itunes:duration>
+      <itunes:keywords>Drydock Talk, podcast, podcasting, podcaster, Interviews, Space Center, CMSEC, TDSC, Telos, infiniD, infinity, Discovery, Christa McAullife</itunes:keywords>
+    </item>
   </channel>
 </rss>
