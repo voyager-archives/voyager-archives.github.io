@@ -15,7 +15,7 @@ var headerTemplate = `
             <a href="https://voyager-archives.github.io/News/lions-gate.html">Lion's Gate</a>
             <a href="https://voyager-archives.github.io/News/drydock-talk.html">Drydock Talk</a>
             <a href="https://voyager-archives.github.io/News/telos.html">Telos</a>
-            <a href="http://voyagerslog.blogspot.com">Voyagers Log</a>
+            <a href="https://farpointcadets.weebly.com/troubadour-blog">Troubadour Blog</a>
         </div>
     </li>
     <li><a href="https://voyager-archives.github.io/history.html"><span>History</span></a></li>
