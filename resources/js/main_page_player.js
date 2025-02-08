@@ -14,10 +14,10 @@ window.Formaweb.Player = function() {
         audio = $("audio")[0];
 
         playlist = [
-            { name: "Sapphire Isle", path: "http://voyagerarchives.com/resources/music/autoplay_1.mp3", id: "Sapphire Isle" },
-            { name: "Meditation Impromptu 01", path: "http://voyagerarchives.com/resources/music/autoplay_3.mp3", id: "Meditation Impromptu 01" },
-            { name: "Meditation Impromptu 03", path: "http://voyagerarchives.com/resources/music/autoplay_4.mp3", id: "Meditation Impromptu 03" },
-            { name: "Bathed in the Light", path: "http://voyagerarchives.com/resources/music/autoplay_2.mp3", id: "Bathed in the Light" }
+            { name: "Sapphire Isle", path: "https://voyager-archives.github.io/resources/music/autoplay_1.mp3", id: "Sapphire Isle" },
+            { name: "Meditation Impromptu 01", path: "https://voyager-archives.github.io/resources/music/autoplay_3.mp3", id: "Meditation Impromptu 01" },
+            { name: "Meditation Impromptu 03", path: "https://voyager-archives.github.io/resources/music/autoplay_4.mp3", id: "Meditation Impromptu 03" },
+            { name: "Bathed in the Light", path: "https://voyager-archives.github.io/resources/music/autoplay_2.mp3", id: "Bathed in the Light" }
         ];
 
         len = playlist.length - 1;

@@ -3,14 +3,14 @@
   <channel>
     <title>Drydock Talk with the TSG</title>
     <description>Unnecessary commentary about the Space Center by two guys who questionably know what they're talking about.</description>
-    <link>http://voyagerarchives.com</link>
+    <link>https://voyager-archives.github.io</link>
     <language>en-us</language>
     <copyright>Copyright 2017</copyright>
     <lastBuildDate>Sat, 11 Aug 2018 07:39:00 -0700</lastBuildDate>
     <pubDate>Sat, 11 Aug 2018 07:39:00 -0700</pubDate>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <webMaster>drydocktalk@gmail.com (The Two Space Guys)</webMaster>
-    <atom:link href="http://voyagerarchives.com/News/drydock-talk/podcastfeed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://voyager-archives.github.io/News/drydock-talk/podcastfeed.xml" rel="self" type="application/rss+xml" />
     <itunes:author>TSG @ Drydock Talk</itunes:author>
     <itunes:subtitle>Unnecessary commentary about the Space Center by two guys who questionably know what they're talking about.</itunes:subtitle>
     <itunes:summary>Unnecessary commentary about the Space Center by two space guys who questionably know what they're talking about.  We love talking about everything Space Center, including stories from members of the Space Center, Technology and Theory.</itunes:summary>
@@ -26,7 +26,7 @@
 
     <item>
       <title>Drydock Talk Episode 00 - Who are these guys?</title>
-      <link>http://voyagerarchives.com/News/drydock-talk/index.html</link>
+      <link>https://voyager-archives.github.io/News/drydock-talk/index.html</link>
       <guid>https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+00+-+Who+are+these+guys.wav</guid>
       <description> Welcome to our 1st release! Today are introducing ourselves, and talking about the Christa McAullife Space Education Center. </description>
       <enclosure url="https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+00+-+Who+are+these+guys.wav" length="353000800" type="audio/wav" />
@@ -42,7 +42,7 @@
 
     <item>
       <title>Drydock Talk Episode 01 - Bossman Himself</title>
-      <link>http://voyagerarchives.com/News/drydock-talk/index.html</link>
+      <link>https://voyager-archives.github.io/News/drydock-talk/index.html</link>
       <guid>https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+1+-+Bossman+Himself.wav</guid>
       <description> Welcome to our first interview! Today will be an interview with Victor Williamson, creator and founder of the Christa McAullife Space Education Center. </description>
       <enclosure url="https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+1+-+Bossman+Himself.wav" length="456523480" type="audio/wav" />
@@ -58,7 +58,7 @@
 
     <item>
       <title>Drydock Talk 02 - This is War(ner)</title>
-      <link>http://voyagerarchives.com/News/drydock-talk/index.html</link>
+      <link>https://voyager-archives.github.io/News/drydock-talk/index.html</link>
       <guid>https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+02+-+This+is+War(ner).wav</guid>
       <description> Today we will be interviewing Megan Warner, flight director, set director, and center director extraordinaire! </description>
       <enclosure url="https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+02+-+This+is+War(ner).wav" length="378786334" type="audio/wav" />
@@ -74,7 +74,7 @@
 
     <item>
       <title>Drydock Talk 03 - Like Driving a Stick</title>
-      <link>http://voyagerarchives.com/News/drydock-talk/index.html</link>
+      <link>https://voyager-archives.github.io/News/drydock-talk/index.html</link>
       <guid>https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+03+-+Like+Driving+a+Stick.wav</guid>
       <description> Some thoughts and unique ideas from the Two Space Guys. </description>
       <enclosure url="https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Drydock+Talk+03+-+Like+Driving+a+Stick.wav" length="456523480" type="audio/wav" />
@@ -90,7 +90,7 @@
 
     <item>
       <title>Drydock Talk 04 - Experiential Framing</title>
-      <link>http://voyagerarchives.com/News/drydock-talk/index.html</link>
+      <link>https://voyager-archives.github.io/News/drydock-talk/index.html</link>
       <guid>https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Episode+04+-+Experiential+Framing.m4a</guid>
       <description> Today, we will be talking a little bit about how to frame an experience. </description>
       <enclosure url="https://s3-us-west-2.amazonaws.com/spacecenter/Drydock+Talk/Episode+04+-+Experiential+Framing.m4a" length="90821402" type="audio/m4a" />
