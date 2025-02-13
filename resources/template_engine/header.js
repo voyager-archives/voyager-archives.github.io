@@ -3,40 +3,17 @@ var headerTemplate = `
 <a href="https://voyager-archives.github.io/"><img class="header-image" src="https://voyager-archives.github.io/resources/images/logo.png" height="100px"></a>
 <h1 class="header-title-h1">The Voyager Archives</h1>
 <ul>
-    <li class="dropdown">
-        <a href="https://voyager-archives.github.io/News/index.html" class="dropbtn">News</a>
-        <div class="header-dropdown-content">
-            <a href="https://voyager-archives.github.io/News/canyon-grove.html">Canyon Grove</a>
-            <a href="https://voyager-archives.github.io/News/cmsec.html">CMSEC</a>
-            <a href="https://voyager-archives.github.io/News/dreamflight.html">Dreamflight</a>
-            <a href="https://voyager-archives.github.io/News/farpoint.html">Farpoint</a>
-            <a href="https://voyager-archives.github.io/News/infinid-learning.html">InfiniD Learning</a>
-            <a href="https://voyager-archives.github.io/News/news-articles.html">News Articles</a>
-            <a href="https://voyager-archives.github.io/News/lions-gate.html">Lion's Gate</a>
-            <a href="https://voyager-archives.github.io/News/drydock-talk.html">Drydock Talk</a>
-            <a href="https://voyager-archives.github.io/News/telos.html">Telos</a>
-            <a href="https://farpointcadets.weebly.com/troubadour-blog">Troubadour Blog</a>
-        </div>
-    </li>
     <li><a href="https://voyager-archives.github.io/history.html"><span>History</span></a></li>
     <li><a href="https://voyager-archives.github.io/stories.html"><span>Stories</span></a></li>
     <li class="dropdown">
-        <a href="https://voyager-archives.github.io/Simulator/index.html" class="dropbtn">Simulator</a>
         <div class="header-dropdown-content">
             <a href="https://voyager-archives.github.io/Simulator/training.html">Training</a>
             <a href="https://voyager-archives.github.io/Simulator/types.html">Types</a>
             <a href="https://voyager-archives.github.io/Simulator/builds.html">Builds</a>
         </div>
     </li>
-    <li class="dropdown">
-        <a href="https://voyager-archives.github.io/Universe/index.html" class="dropbtn">Universe</a>
-        <div class="header-dropdown-content">
-            <a href="http://memory-alpha.wikia.com/">United Federation of Planets</a>
-            <a href="https://docs.google.com/document/d/1-ESmVic7wp4w1roIPbcuxIzFR-Yy7F25WXbkt9D6lLM/edit?usp=sharing">Farpoint</a>
-            <a href="https://voyager-archives.github.io/Universe/infinid-learning.html">InfiniD</a>
-            <a href="http://colonialcommand.com/lore/">Colonial Command</a>
-            <a href="https://s3-us-west-2.amazonaws.com/spacecenter/Documents/dreamflight/General+Introduction.pdf">Dreamflight</a>
-        </div>
+    <li>
+        <a href="https://www.youtube.com/channel/UCCK6eKNzxMS_acFr8BqnhOQ/featured" class="dropbtn">Podcast</a>
     </li>
     <li class="dropdown">
         <a href="https://voyager-archives.github.io/DIY/index.html" class="dropbtn">DIY</a>
@@ -56,6 +33,7 @@ var headerTemplate = `
             <a href="https://voyager-archives.github.io/DIY/Tips-Tricks-and-Tools/index.html">Tips, Tricks and Tools</a>
             <a href="https://voyager-archives.github.io/DIY/Video-System/index.html">Video System</a>
             <a href="https://voyager-archives.github.io/DIY/Writing-Missions/index.html">Writing Missions</a>
+            <a href="https://voyager-archives.github.io/DIY/Media/index.html">Media</a>
         </div>
     </li>
     <li class="dropdown">

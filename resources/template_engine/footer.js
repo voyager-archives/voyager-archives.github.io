@@ -1,8 +1,6 @@
 var footerTemplate = `
 <link rel="stylesheet" href="https://voyager-archives.github.io/resources/css/footer.css"></link>
 <div class="columns">
-    This page last updated on
-    <%updatedDate%>
 </div>
 <div class=columns>
     <ul>
@@ -12,8 +10,6 @@ var footerTemplate = `
     </ul>
 </div>
 <div class="columns">
-    <p>Portions of this content are copyright 2018 by individual Voyager Archives contributors. Content available under a Creative Commons license.</p>
-    <br>
     <p>Website created and maintained by <a href="https://github.com/Emrix">Matt Ricks</a>.</p>
 </div>
 `;
