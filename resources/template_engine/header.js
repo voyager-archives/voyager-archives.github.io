@@ -37,28 +37,52 @@ var headerTemplate = `
         </div>
     </li>
     <li class="dropdown">
-        <a href="https://voyager-archives.github.io/Media/index.html" class="dropbtn">Media</a>
-        <div class="header-dropdown-content">
-            <a href="https://voyager-archives.github.io/Media/3D-Models/index.html">3D Models</a>
-            <a href="https://voyager-archives.github.io/Media/Images/index.html">Images</a>
-            <a href="https://voyager-archives.github.io/Media/Missions/index.html">Missions</a>
-            <a href="https://voyager-archives.github.io/Media/Music/index.html">Music</a>
-            <a href="https://voyager-archives.github.io/Media/Other/index.html">Other</a>
-            <a href="https://voyager-archives.github.io/Media/Pictures/index.html">Pictures</a>
-            <a href="https://voyager-archives.github.io/Media/Scripts/index.html">Scripts</a>
-            <a href="https://voyager-archives.github.io/Media/SFX/index.html">SFX</a>
-            <a href="https://voyager-archives.github.io/Media/Software/index.html">Software</a>
-            <a href="https://voyager-archives.github.io/Media/Videos/index.html">Videos</a>
-        </div>
-    </li>
-    <li class="dropdown">
         <a href="https://voyager-archives.github.io/Get-Involved/index.html" class="dropbtn">Get Involved</a>
         <div class="header-dropdown-content">
-            <a href="https://voyager-archives.github.io/Get-Involved/build-a-ship.html">Build a Ship</a>
             <a href="https://voyager-archives.github.io/Get-Involved/donate.html">Donate</a>
             <a href="https://voyager-archives.github.io/Get-Involved/open-source-programming.html">Open Source Programming</a>
             <a href="https://voyager-archives.github.io/Get-Involved/volunteering.html">Volunteering</a>
         </div>
     </li>
 </ul>
+
+<button class="menu-toggle">☰</button>
+<nav>
+    <ul>
+        <li><a href="https://voyager-archives.github.io/history.html">History</a></li>
+        <li><a href="https://voyager-archives.github.io/stories.html">Stories</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Simulator</a>
+            <div class="header-dropdown-content">
+                <a href="https://voyager-archives.github.io/Simulator/training.html">Training</a>
+                <a href="https://voyager-archives.github.io/Simulator/types.html">Types</a>
+                <a href="https://voyager-archives.github.io/Simulator/builds.html">Builds</a>
+            </div>
+        </li>
+        <li><a href="https://www.youtube.com/channel/UCCK6eKNzxMS_acFr8BqnhOQ/featured" class="dropbtn">Podcast</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">DIY</a>
+            <div class="header-dropdown-content">
+                <a href="https://voyager-archives.github.io/DIY/index.html">DIY</a>
+                <a href="https://voyager-archives.github.io/DIY/Bridge-Design-Construction/index.html">Bridge Design / Construction</a>
+                <a href="https://voyager-archives.github.io/DIY/Controls/index.html">Controls</a>
+                <a href="https://voyager-archives.github.io/DIY/Costumes/index.html">Costumes</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Get Involved</a>
+            <div class="header-dropdown-content">
+                <a href="https://voyager-archives.github.io/Get-Involved/donate.html">Donate</a>
+                <a href="https://voyager-archives.github.io/Get-Involved/open-source-programming.html">Open Source Programming</a>
+                <a href="https://voyager-archives.github.io/Get-Involved/volunteering.html">Volunteering</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+<script>
+document.querySelector('.menu-toggle').addEventListener('click', function() {
+    document.querySelector('nav ul').classList.toggle('show');
+});
+
+</script>
 `;

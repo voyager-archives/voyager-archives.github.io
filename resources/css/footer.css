@@ -148,31 +148,32 @@ table {
 
 /*end reset*/
 
+
+/* Footer styles */
 footer {
     background-color: #ddd;
     color: white;
-
     height: 250px;
     width: 100%;
     padding-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 10px;
 }
 
-footer a {
-    color: white;
-}
-
+/* Ensure footer text and elements are centered and responsive */
 footer .columns {
-    height: 78%;
+    height: auto; /* Allow height to adjust */
     float: left;
-    width: 29%;
+    width: 100%; /* Stack on mobile */
     margin: 1%;
     padding: 1%;
     background-color: #062458;
+    box-sizing: border-box;
 }
 
-footer li {
-    margin-bottom: 10px;
+/* Responsive design */
+@media (min-width: 768px) {
+    footer .columns {
+        width: 29%; /* Original width on larger screens */
+        float: left;
+    }
 }
