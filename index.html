@@ -1,210 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="keywords" content="Voyager Archives, Space Simulation, Education, Utah, Space Camp, Discovery, Christa McAuliffe, History, Archive" />
-  <meta name="description" content="A new home for the Voyager Archives — preserving the history and stories of space simulation and discovery." />
-  <title>The Voyager Archives</title>
 
-  <style>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Voyager Archives, Space Simulation, Education, Utah, Space Camp, Discovery, Christa McAuliffe, History, Archive" />
+    <meta name="description" content="A new home for the Voyager Archives — preserving the history and stories of space simulation and discovery." />
+    <title>The Voyager Archives</title>
+    <style>
     body {
-      margin: 0;
-      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: #000014;
-      color: #f2f2f2;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      overflow-x: hidden;
+        margin: 0;
+        font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background: #000014;
+        color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        overflow-x: hidden;
     }
+
     header {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      padding: 1.5rem;
-      background: rgba(0, 0, 30, 0.8);
-      border-bottom: 2px solid #1a4d8f;
-      text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1.5rem;
+        background: rgba(0, 0, 30, 0.8);
+        border-bottom: 2px solid #1a4d8f;
+        text-align: center;
     }
+
     header h1 {
-      font-size: 2rem;
-      margin: 0;
-      color: #d0e8ff;
-      text-shadow: 0 0 10px #1a4d8f;
+        font-size: 2rem;
+        margin: 0;
+        color: #d0e8ff;
+        text-shadow: 0 0 10px #1a4d8f;
     }
+
     header h2 {
-      font-size: 1rem;
-      font-weight: normal;
-      color: #88bbee;
-      margin: 0.5rem 0 0;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #88bbee;
+        margin: 0.5rem 0 0;
     }
 
     nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
-      background: rgba(0, 0, 30, 0.9);
-      border-bottom: 1px solid #1a4d8f;
-      padding: 1rem 0;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        background: rgba(0, 0, 30, 0.9);
+        border-bottom: 1px solid #1a4d8f;
+        padding: 1rem 0;
     }
+
     nav a {
-      color: #a9d6ff;
-      text-decoration: none;
-      border: 1px solid #1a4d8f;
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      transition: 0.2s;
-      font-weight: 500;
+        color: #a9d6ff;
+        text-decoration: none;
+        border: 1px solid #1a4d8f;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        transition: 0.2s;
+        font-weight: 500;
     }
+
     nav a:hover {
-      background: #1a4d8f;
-      color: white;
+        background: #1a4d8f;
+        color: white;
     }
 
     main {
-      flex: 1;
-      position: relative;
-      text-align: center;
-      padding: 4rem 1.5rem;
-      background-size: cover;
-      background-position: center;
-      overflow: hidden;
+        flex: 1;
+        position: relative;
+        text-align: center;
+        padding: 4rem 1.5rem;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
     }
 
     /* semi-transparent overlay over background */
     main::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-/*      background: rgba(0, 0, 0, 0.55);
+        content: "";
+        position: absolute;
+        inset: 0;
+        /*      background: rgba(0, 0, 0, 0.55);
       backdrop-filter: blur(2px);*/
-      z-index: 0;
+        z-index: 0;
     }
 
     main p a {
-      color: inherit;
-      text-decoration: underline;
+        color: inherit;
+        text-decoration: underline;
     }
 
     /* content box for readability */
     .content-box {
-      position: relative;
-      z-index: 1;
-      background: rgba(0, 0, 40, 0.6);
-      border: 1px solid rgba(80, 160, 255, 0.3);
-      border-radius: 10px;
-      padding: 2rem;
-      max-width: 800px;
-      margin: 0 auto;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-      color: #e6f2ff;
-      line-height: 1.6;
-      text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+        position: relative;
+        z-index: 1;
+        background: rgba(0, 0, 40, 0.6);
+        border: 1px solid rgba(80, 160, 255, 0.3);
+        border-radius: 10px;
+        padding: 2rem;
+        max-width: 800px;
+        margin: 0 auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+        color: #e6f2ff;
+        line-height: 1.6;
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     }
 
     .emphasizedListItem {
-      color: white;
-      background: #4aa4bf;
+        color: white;
+        background: #4aa4bf;
     }
 
     footer {
-      text-align: center;
-      padding: 1rem;
-      background: rgba(0, 0, 30, 0.9);
-      font-size: 0.9rem;
-      border-top: 1px solid #1a4d8f;
-      color: #a9cbee;
+        text-align: center;
+        padding: 1rem;
+        background: rgba(0, 0, 30, 0.9);
+        font-size: 0.9rem;
+        border-top: 1px solid #1a4d8f;
+        color: #a9cbee;
     }
 
     .music {
-      margin-top: 2rem;
+        margin-top: 2rem;
     }
+
     .music a {
-      display: inline-block;
-      margin: 0.3rem;
-      color: #9fd3ff;
-      text-decoration: none;
+        display: inline-block;
+        margin: 0.3rem;
+        color: #9fd3ff;
+        text-decoration: none;
     }
+
     .music a:hover {
-      text-decoration: underline;
+        text-decoration: underline;
     }
-  </style>
+    </style>
 </head>
 
 <body>
-  <header>
-    <h1>The Voyager Archives</h1>
-    <h2>Practicing the Discipline of Wonder</h2>
-  </header>
-
-  <nav>
-    <ul>
-      <li><a class="emphasizedListItem" href="https://voyagerarchives.org" target="_blank">Voyager Archives Museum</a></li>
-      <!-- <li><a href="/old-site/index.html">Old Voyager Site</a></li> -->
-      <li><a href="/discoverysupervisortraining/home.html">Discovery Supervisor Training</a></li>
-    </ul>
-  </nav>
-
-  <main id="main-content">
-    <div class="content-box">
-      <p>Welcome to the the Voyager Archives Github — a site dedicated to preserving the history, innovation, and stories of the space simulation programs that inspired generations.</p>
-      <p>This site only part of the archive. Please visit <a href="https://voyagerarchives.org">the Museum Site</a> for images, videos, and more history of the Space Center</p>
-
-      <div class="music">
-        <p><strong>Featured Music by Kevin MacLeod:</strong></p>
-        <a href="#" class="track" data-id="Sapphire Isle">Sapphire Isle</a> |
-        <a href="#" class="track" data-id="Meditation Impromptu 01">Meditation Impromptu 01</a> |
-        <a href="#" class="track" data-id="Bathed in the Light">Bathed in the Light</a>
-        <p id="track-name">No track playing.</p>
-        <audio id="audio-player" controls style="margin-top: 1rem;">
-          Your browser does not support HTML5 audio.
-        </audio>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p>&copy; <span id="year"></span> The Voyager Archives. All Rights Reserved.</p>
-  </footer>
-
-  <script>
+    <header>
+        <h1>The Voyager Archives</h1>
+        <h2>Practicing the Discipline of Wonder</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="emphasizedListItem" href="https://voyagerarchives.org" target="_blank">Voyager Archives Museum</a></li>
+            <!-- <li><a href="/old-site/index.html">Old Voyager Site</a></li> -->
+            <li><a href="/discoverysupervisortraining/home.html">Discovery Supervisor Training</a></li>
+        </ul>
+    </nav>
+    <main id="main-content">
+        <div class="content-box">
+            <p>Welcome to the the Voyager Archives Github — a site dedicated to preserving the history, innovation, and stories of the space simulation programs that inspired generations.</p>
+            <p>This site only part of the archive. Please visit <a href="https://voyagerarchives.org">the Museum Site</a> for images, videos, and more history of the Space Center</p>
+            <div class="music">
+                <p><strong>Featured Music by Kevin MacLeod:</strong></p>
+                <a href="#" class="track" data-id="Sapphire Isle">Sapphire Isle</a> |
+                <a href="#" class="track" data-id="Meditation Impromptu 01">Meditation Impromptu 01</a> |
+                <a href="#" class="track" data-id="Bathed in the Light">Bathed in the Light</a>
+                <p id="track-name">No track playing.</p>
+                <audio id="audio-player" controls style="margin-top: 1rem;">
+                    Your browser does not support HTML5 audio.
+                </audio>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> The Voyager Archives. All Rights Reserved.</p>
+    </footer>
+    <script>
     // Random space background (Unsplash)
     const images = [
-      "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1447433819943-74a20887a81e?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=1600&q=80"
+        "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1447433819943-74a20887a81e?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=1600&q=80"
     ];
     document.getElementById("main-content").style.backgroundImage =
-      "url('" + images[Math.floor(Math.random() * images.length)] + "')";
+        "url('" + images[Math.floor(Math.random() * images.length)] + "')";
 
     // CORS-safe Kevin MacLeod tracks from Incompetech
     const tracks = {
-      "Sapphire Isle": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Sapphire%20Isle.mp3",
-      "Meditation Impromptu 01": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Meditation%20Impromptu%2001.mp3",
-      "Bathed in the Light": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Bathed%20in%20the%20Light.mp3"
+        "Sapphire Isle": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Sapphire%20Isle.mp3",
+        "Meditation Impromptu 01": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Meditation%20Impromptu%2001.mp3",
+        "Bathed in the Light": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Bathed%20in%20the%20Light.mp3"
     };
 
     const audio = document.getElementById("audio-player");
     const trackName = document.getElementById("track-name");
 
     document.querySelectorAll(".track").forEach(link => {
-      link.addEventListener("click", e => {
-        e.preventDefault();
-        const id = e.target.dataset.id;
-        audio.src = tracks[id];
-        audio.play().catch(err => console.warn("Playback failed:", err));
-        trackName.textContent = "Now playing: " + id;
-      });
+        link.addEventListener("click", e => {
+            e.preventDefault();
+            const id = e.target.dataset.id;
+            audio.src = tracks[id];
+            audio.play().catch(err => console.warn("Playback failed:", err));
+            trackName.textContent = "Now playing: " + id;
+        });
     });
 
     document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2CLZ0BGXLL"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2CLZ0BGXLL');
+    </script>
 </body>
+
 </html>
